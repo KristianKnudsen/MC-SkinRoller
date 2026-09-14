@@ -1,0 +1,28 @@
+{
+	"schemaVersion": 1,
+	"id": "skinroller",
+	"version": "${version}",
+	"name": "MC-SkinRoller",
+	"description": "Generates a new skin each time the game starts: a randomly scrambled Rubik's Cube head on one of 15 suits.",
+	"authors": [
+		"KristianKnudsen"
+	],
+	"contact": {
+		"homepage": "https://github.com/KristianKnudsen/MC-SkinRoller",
+		"sources": "https://github.com/KristianKnudsen/MC-SkinRoller",
+		"issues": "https://github.com/KristianKnudsen/MC-SkinRoller/issues"
+	},
+	"license": "MIT",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"dev.skinroller.SkinRollerMod"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.17.3",
+		"minecraft": "${minecraft_version}",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
